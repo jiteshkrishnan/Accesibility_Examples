@@ -13,7 +13,12 @@ import {
 export default class Example extends React.Component {
   render() {
     return (
-      <div class="container">
+      <div className="container">
+        <Row>
+          <Col>
+            <h1>Registration form</h1>
+          </Col>
+        </Row>
         <Row>
           <Col>
             <Form>

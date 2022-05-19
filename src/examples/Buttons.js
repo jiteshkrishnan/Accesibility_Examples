@@ -1,7 +1,7 @@
 import { Button, Row, Col } from "reactstrap";
 const Buttons = () => {
   return (
-    <div class="container">
+    <div className="container">
       <Row>
         <Col>
           <div className="btn btn-primary"> Register me</div>

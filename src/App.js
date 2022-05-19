@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Buttons from "./examples/Buttons";
 import AllyForm from "./examples/ally";
+import Custom from "./examples/custom";
+
 export default function App() {
   return (
     <Router>
@@ -28,7 +30,7 @@ export default function App() {
             <AllyForm />
           </Route>
           <Route path="/custom">
-            <Dashboard />
+            <Custom />
           </Route>
         </Switch>
       </div>
